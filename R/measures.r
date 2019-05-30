@@ -1533,7 +1533,7 @@ indexDilemmaOut2 <- function(res, exclude){
 #' \emph{Minimal and maximal score difference criterion (cf. Feixas & Saul, 2004)}
 #'
 #' This other method is more conservative and it is designed to minimize Type I errors by a) setting
-#' a default minimum correlation between constructs of \code{r = .34}; b) discarding cases where the ideal Self and self are 
+#' a default minimum correlation between constructs of \code{r = .35}; b) discarding cases where the ideal Self and self are 
 #' neither congruent or discrepant; c) discarding cases where ideal self is "not oriented", i.e. 
 #' scored as the midpoint.
 #''
@@ -1699,7 +1699,7 @@ indexDilemmaOut2 <- function(res, exclude){
 indexDilemma <- function(x, self = 1, ideal = ncol(x), 
                          diff.mode = 1, diff.congruent = NA,
                          diff.discrepant = NA, diff.poles=1, 
-                         r.min=.34, exclude=FALSE, digits=2, show=F,
+                         r.min=.35, exclude=FALSE, digits=2, show=F,
                          output=1, 
                          index=T, trim=20) # CHANGE: set 'self' and
                                   # 'ideal' to first and last column

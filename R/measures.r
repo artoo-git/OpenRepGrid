@@ -1059,7 +1059,7 @@ indexDilemmaShowCorrelationDistribution <- function(x, e1, e2)
 #                        simply saves space when displaying the output.
 # @param digits          Numeric. Number of digits to round to (default is 
 #                        \code{2}).
-# @author                Mark Heckmann
+# @author                Mark Heckmann, Alejandro García, Diego Vitali
 # @export
 # @keywords internal
 # @return                A list with four elements containing different steps of the 
@@ -1653,7 +1653,7 @@ indexDilemmaOut2 <- function(res, exclude){
 #'
 #' @author                Mark Heckmann, Alejandro García, Diego Vitali
 #' @export
-#' @return                Called for console output. Invisbly returns a list containing
+#' @return                Called for console output. Invisibly returns a list containing
 #'                        the result dataframes and all results from the calculations.
 #' @references            
 #'                        Bell, R. C. (2009). \emph{Gridstat version 5 - A Program for Analyzing

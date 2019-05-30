@@ -65,7 +65,7 @@ that is returned invisibly which will be the same in any case
 simply saves space when displaying the output.}
 }
 \value{
-Called for console output. Invisbly returns a list containing
+Called for console output. Invisibly returns a list containing
                        the result dataframes and all results from the calculations.
 }
 \description{
